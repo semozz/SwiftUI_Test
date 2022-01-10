@@ -14,6 +14,12 @@
 		06AFFC97278BC56E00FAB9DA /* SwiftUIUberEatsMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AFFC96278BC56E00FAB9DA /* SwiftUIUberEatsMenuTests.swift */; };
 		06AFFCA1278BC56E00FAB9DA /* SwiftUIUberEatsMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AFFCA0278BC56E00FAB9DA /* SwiftUIUberEatsMenuUITests.swift */; };
 		06AFFCA3278BC56E00FAB9DA /* SwiftUIUberEatsMenuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AFFCA2278BC56E00FAB9DA /* SwiftUIUberEatsMenuUITestsLaunchTests.swift */; };
+		06AFFCB0278BC74B00FAB9DA /* MenuBarOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AFFCAF278BC74B00FAB9DA /* MenuBarOptions.swift */; };
+		06AFFCB2278BC83100FAB9DA /* MenuOptionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AFFCB1278BC83100FAB9DA /* MenuOptionsList.swift */; };
+		06AFFCB4278BCC1B00FAB9DA /* MenuItemSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AFFCB3278BCC1B00FAB9DA /* MenuItemSection.swift */; };
+		06AFFCB6278BCFEF00FAB9DA /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AFFCB5278BCFEF00FAB9DA /* FoodItem.swift */; };
+		06AFFCB8278BD94C00FAB9DA /* OffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AFFCB7278BD94C00FAB9DA /* OffsetKey.swift */; };
+		06AFFCBA278BDA1100FAB9DA /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AFFCB9278BDA1100FAB9DA /* OffsetModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		06AFFC9C278BC56E00FAB9DA /* SwiftUIUberEatsMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIUberEatsMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AFFCA0278BC56E00FAB9DA /* SwiftUIUberEatsMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIUberEatsMenuUITests.swift; sourceTree = "<group>"; };
 		06AFFCA2278BC56E00FAB9DA /* SwiftUIUberEatsMenuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIUberEatsMenuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06AFFCAF278BC74B00FAB9DA /* MenuBarOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarOptions.swift; sourceTree = "<group>"; };
+		06AFFCB1278BC83100FAB9DA /* MenuOptionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionsList.swift; sourceTree = "<group>"; };
+		06AFFCB3278BCC1B00FAB9DA /* MenuItemSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemSection.swift; sourceTree = "<group>"; };
+		06AFFCB5278BCFEF00FAB9DA /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		06AFFCB7278BD94C00FAB9DA /* OffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetKey.swift; sourceTree = "<group>"; };
+		06AFFCB9278BDA1100FAB9DA /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,12 @@
 				06AFFC87278BC56D00FAB9DA /* ContentView.swift */,
 				06AFFC89278BC56E00FAB9DA /* Assets.xcassets */,
 				06AFFC8B278BC56E00FAB9DA /* Preview Content */,
+				06AFFCAF278BC74B00FAB9DA /* MenuBarOptions.swift */,
+				06AFFCB1278BC83100FAB9DA /* MenuOptionsList.swift */,
+				06AFFCB3278BCC1B00FAB9DA /* MenuItemSection.swift */,
+				06AFFCB5278BCFEF00FAB9DA /* FoodItem.swift */,
+				06AFFCB7278BD94C00FAB9DA /* OffsetKey.swift */,
+				06AFFCB9278BDA1100FAB9DA /* OffsetModifier.swift */,
 			);
 			path = SwiftUIUberEatsMenu;
 			sourceTree = "<group>";
@@ -258,7 +276,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				06AFFC88278BC56D00FAB9DA /* ContentView.swift in Sources */,
+				06AFFCB2278BC83100FAB9DA /* MenuOptionsList.swift in Sources */,
 				06AFFC86278BC56D00FAB9DA /* SwiftUIUberEatsMenuApp.swift in Sources */,
+				06AFFCB8278BD94C00FAB9DA /* OffsetKey.swift in Sources */,
+				06AFFCB4278BCC1B00FAB9DA /* MenuItemSection.swift in Sources */,
+				06AFFCBA278BDA1100FAB9DA /* OffsetModifier.swift in Sources */,
+				06AFFCB6278BCFEF00FAB9DA /* FoodItem.swift in Sources */,
+				06AFFCB0278BC74B00FAB9DA /* MenuBarOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
